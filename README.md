@@ -10,4 +10,4 @@ Due to GitHub's file size restrictions for large data files, the simulation pipe
 
 ## Online Execution
 To run this pipeline directly in your browser, access the link and please navigate to File > Save a copy in your Drive:
-[Clique aqui para abrir no Google Colab](https://colab.research.google.com/drive/1QPyvHEQnYBl6h_elTvyClfjNQ8h5yRvG#scrollTo=5USDRQB0Lrx3)
+[Click here to open in Google Colab](https://colab.research.google.com/drive/1QPyvHEQnYBl6h_elTvyClfjNQ8h5yRvG#scrollTo=5USDRQB0Lrx3)
