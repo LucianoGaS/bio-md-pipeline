@@ -1,14 +1,22 @@
 # data visualization
+import os
+import argparse
 import re
 import numpy as np
 import matplotlib.pyplot as plt
 
+parser = argparse.ArgumentParser(
+                    prog='plot',
+                    description='Plot GROMACS <file_name>.xvg results')
+
+parser.add_argument("-f", "--file_name", help="input file path")
+args = parser.parse_args()
+
 x_data = []
 y_data = []
-file_name = input('File name without extension:')
+file_name = os.path.splitext(os.path.basename(args.file_name))[0]
 
 file = open(file_name + '.xvg', 'r')
-
 for line in file:
   # extract axis labels   
   line = line.strip( )
